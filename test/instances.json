@@ -1,0 +1,47 @@
+{
+  "Reservations": [
+    {
+      "Instances": [
+        {
+          "State": {
+            "Code": 16,
+            "Name": "running"
+          },
+          "EbsOptimized": false,
+          "LaunchTime": "2019-14-22T12:50:05.000Z",
+          "ProductCodes": [],
+          "CpuOptions": {
+            "CoreCount": 1,
+            "ThreadsPerCore": 2
+          },
+          "StateTransitionReason": "",
+          "InstanceId": "i-1234567abcde12345",
+          "EnaSupport": true,
+          "InstanceType": "m5.large",
+          "SourceDestCheck": true,
+          "Placement": {
+            "Tenancy": "default",
+            "GroupName": "",
+            "AvailabilityZone": "eu-central-2"
+          },
+          "Architecture": "x86_64",
+          "RootDeviceType": "ebs",
+          "Tags": [
+            {
+              "Value": "products-01-develop",
+              "Key": "Name"
+            },
+            {
+              "Value": "products-develop-service-01",
+              "Key": "aws:cloudformation:stack-name"
+            },
+            {
+              "Value": "processor",
+              "Key": "service"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

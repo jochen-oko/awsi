@@ -1,0 +1,19 @@
+{
+  "logGroups": [
+    {
+      "arn": "arn:aws:logs:eu-central-2:1234567:log-group:/aws/lambda/kafka-check:*",
+      "creationTime": 1523034265001,
+      "metricFilterCount": 0,
+      "logGroupName": "/aws/lambda/kafka-check",
+      "storedBytes": 345
+    },
+    {
+      "storedBytes": 2293,
+      "metricFilterCount": 0,
+      "creationTime": 1532293013262,
+      "logGroupName": "/aws/lambda/autoscaling-monitor",
+      "retentionInDays": 2,
+      "arn": "arn:aws:logs:eu-central-1:1234567:log-group:/aws/lambda/autoscaling-monitor:*"
+    }
+  ]
+}
