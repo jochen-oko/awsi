@@ -19,9 +19,12 @@ The same works with ```Alt+g``` for log groups, useful e.g. for ```awslogs```.
 
 
 ## Installation
-```git clone git@github.com:jochen-oko/awsi.git```
-```cd awsi```
-```./install.sh``` (remember to source your rc-file for instant integration...)
+```
+git clone git@github.com:jochen-oko/awsi.git
+cd awsi
+./install.sh
+```
+(remember to source your rc-file for instant integration...)
 
 
 
