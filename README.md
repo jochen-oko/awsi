@@ -1,9 +1,8 @@
-awsi - find AWS instance ids and log stream names exactly when needed
+# awsi - find AWS instance ids and log stream names exactly when needed
 
 awsi is a small python script that integrates into the linux command line.
 
 ![Just a gif...](./awsi.gif)
-
 
 
 If you find yourself typing a command like
@@ -19,6 +18,10 @@ If you select one, its instance id is pasted directly into your cursor position,
 The same works with ```Alt+g``` for log groups, useful e.g. for ```awslogs```.
 
 
+## Installation
+```git clone git@github.com:jochen-oko/awsi.git```
+```cd awsi```
+```./install.sh``` (remember to source your rc-file for instant integration...)
 
 
 
